@@ -20,11 +20,11 @@ def assign_rooms(array_names)
     "Hello, #{attendee}! You'll be assigned to room #{room_assignment.last}!"
     end
 end
-
+binding.pry
 def printer(array_names)
   print_badges = []
      batch_badge_creator(array_names) do |badges|
-     binding.pry
+     
      #assign_rooms(array_names)
      end
 end
