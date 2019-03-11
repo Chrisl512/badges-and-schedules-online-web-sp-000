@@ -26,5 +26,5 @@ def printer(array_names)
     puts assign_rooms(array_names)
 
     "#{print_badges}"
-    
+
 end
