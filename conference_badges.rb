@@ -22,6 +22,7 @@ def assign_rooms(array_names)
 end
 
 def printer(array_names)
+  print_badge
   array_names.collect do |badge|
   batch_badge_creator(badge)
   "#{badge.chomp}"
