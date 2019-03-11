@@ -24,7 +24,7 @@ end
 def printer(array_names)
   print_badges = []
     array_names.each do |badges|
-    badge_room = batch_badge_creator(array_names)
+    badge_room = batch_badge_creator(badges)
     print_badges << badge_room
 
     "#{print_badges}"
