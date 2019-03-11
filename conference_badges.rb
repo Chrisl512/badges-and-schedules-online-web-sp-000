@@ -24,7 +24,7 @@ end
 def printer(array_names)
   print_badges = []
      batch_badge_creator(array_names) do |badges|
-     badges
+     binding.pry
      #assign_rooms(array_names)
      end
 end
