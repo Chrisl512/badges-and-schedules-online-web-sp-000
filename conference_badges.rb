@@ -24,7 +24,7 @@ end
 def printer(array_names)
   print_badge = []
     batch_badge_creator(array_names).each do |badge|
-    
+    binding.pry
       <<
     "#{array_names.chomp}"
     #{}"#{room}"
