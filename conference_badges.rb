@@ -27,6 +27,6 @@ def printer(array_names)
     badge_room = badges
     print_badges << badge_room
 binding.pry
-    #{}"#{room}"
+    "#{print_badges}"
     end
 end
