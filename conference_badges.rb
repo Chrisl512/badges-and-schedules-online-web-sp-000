@@ -21,7 +21,7 @@ def assign_rooms(array_names)
     end
 end
 
-def printer(array_names[0])
+def printer(array_names)
   batch_badge_creator(array_names).each do |badge|
 
   "#{badge.chomp}"
