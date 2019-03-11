@@ -22,6 +22,5 @@ def assign_rooms(array_names)
 end
 
 def printer(array_names)
-  return batch_badge_creator(array_names).chomp
-  return assign_rooms(array_names).chomp
+  return batch_badge_creator(array_names) + assign_rooms(array_names)
 end
