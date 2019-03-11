@@ -23,9 +23,9 @@ end
 
 def printer(array_names)
   print_badge = []
-    array_names.each do |badge|
+    #array_names.each do |badge|
     batch_badge_creator(badge)
     "#{badge.chomp}"
     #{}"#{room}"
-    end
+    #end
 end
