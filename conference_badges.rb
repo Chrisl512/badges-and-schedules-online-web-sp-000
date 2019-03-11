@@ -20,7 +20,7 @@ def assign_rooms(array_names)
     "Hello, #{attendee}! You'll be assigned to room #{room_assignment.last}!"
     end
 end
-binding.pry
+
 def printer(array_names)
   return batch_badge_creator(array_names)
 
