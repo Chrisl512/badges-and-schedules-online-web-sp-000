@@ -23,6 +23,6 @@ end
 
 def printer(array_names)
     #puts batch_badge_creator(array_names)
-     "#{batch_badge_creator(array_names[0])}"
+     puts "#{batch_badge_creator(array_names[0])}"
 
 end
