@@ -22,5 +22,6 @@ def assign_rooms(array_names)
 end
 
 def printer(array_names)
-  puts "#{batch_badge_creator(array_names) + assign_rooms(array_names)}"
+  puts "#{batch_badge_creator(array_names)}"
+  puts "#{assign_rooms(array_names)}"
 end
