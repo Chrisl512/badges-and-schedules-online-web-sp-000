@@ -28,5 +28,5 @@ def printer(array_names)
       <<
     "#{array_names.chomp}"
     #{}"#{room}"
-    #end
+    end
 end
