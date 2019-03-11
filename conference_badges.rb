@@ -23,8 +23,8 @@ end
 
 def printer(array_names)
   print_badges = []
-     array_names.each do |badges|
-     batch_badge_creator(badges)
+     batch_badge_creator(array_names).each do |badges|
+
      #assign_rooms(array_names)
      end
 end
