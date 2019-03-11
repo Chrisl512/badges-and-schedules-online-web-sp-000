@@ -22,7 +22,7 @@ def assign_rooms(array_names)
 end
 binding.pry
 def printer(array_names)
-  batch_badge_creator(array_names)
+  batch_badge_creator
 
      #assign_rooms(array_names)
 
