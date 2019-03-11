@@ -27,7 +27,7 @@ def printer(array_names)
     print_badges = batch_badge_creator(badges)
     badge_room << print_badges
     "#{badge_room}"
-    
+
     #{}"#{room}"
     end
 end
