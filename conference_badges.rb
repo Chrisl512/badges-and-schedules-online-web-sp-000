@@ -26,7 +26,7 @@ def printer(array_names)
     array_names.each do |badges|
     badge_room = badges
     print_badges << badge_room
-binding.pry
+
     "#{print_badges}"
     end
 end
